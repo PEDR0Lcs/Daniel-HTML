@@ -1,0 +1,55 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    background-color: darkred;
+}
+.tabela{
+    display: flex;
+    color: black;
+    width: 50%;
+    background-color:darkred;
+    border: 1px solid black;
+    border: 1;
+    margin-bottom: 2em;    
+}
+.lista{
+    display: flex;
+    width: 50%; color: white;
+    background-color: darkred;
+    border: 1px solid black;
+    border-right: 0cap;
+    margin-bottom: 2em;
+
+}
+.rodape{
+    display: flex;
+    background-color: darkred;
+    border: 2px solid black;
+    border-top: 0cap;
+    margin-top: 2em;
+}
+.nav{
+    display: flex;
+    background-color: darkred;
+    align-items: center;
+    justify-content: center;
+    width: 5 0%;
+}
+.nav ul{
+    display: flex;
+    margin-right: 5em;
+}
+.nav ul li{
+    margin-left: 4em;
+    list-style: none;
+    padding: 0.7rem;
+    border-radius: 0.7em;
+    background-color: black;
+    color: aliceblue;
+    border: 1px solid white;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
